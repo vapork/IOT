@@ -1,6 +1,6 @@
 # IOT
 Internet of Things Project
 
-Week 0: Introduction
-Week 1: Setting up Raspberry Pi
-Week 1: Working with Raspberry Pi
+Working on Crypto Mining on low power Pi
+
+Using underclocked Pi use it to mine and make a node for Cryptomining. Considering Passive cooling to increase efficiency.
