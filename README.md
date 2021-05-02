@@ -5,19 +5,29 @@ Using CPUminer to mine Monero on Raspberry PI with Auto start at reboot and back
 Installation, Build and Usage:
 
 1. Update the Raspberry Pi:
+
    sudo apt-get update && sudo apt-get upgrade -y
 2. Nix Build:
+
+
    sudo apt install git automake autoconf libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev
 3. Now clone my repo for CPUminer and builds:
+
    sudo git clone https://github.com/vapork/IOT
 4. Go to the directory:
+
+
    cd IOT
 7. Now build the script
+
+
    sudo ./autogen.sh
    sudo ./configure
    sudo ./build.sh
 11. Setup an account on minergate or another mining pool
 12. Run cpuminer without password. We need to enter the email:
+
+
     ./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u karan.modi9@gmail.com
     
 Autostart on Raspberry Pi boot:    
