@@ -25,8 +25,11 @@ Installation, Build and Usage:
    sudo ./configure
    sudo ./build.sh
 11. Setup an account on poolin, slushpool, minergate(these are trusted pools) or another mining pool
-12. Use the credentials, select an algorithm to mine and make new worker with user and password.
-13. Run cpuminer without password. We need to enter the email:
+
+
+    Using mining pool at https://dash.suprnova.cc/ for dash
+13. Use the credentials, select an algorithm to mine and make new worker with user and password.
+14. Run cpuminer without password. We need to enter the email:
 
 
    ./cpuminer -a x11 -o stratum+tcp://dash80.suprnova.cc:80 -u vapork.user -p x
