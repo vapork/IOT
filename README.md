@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Using CPUminer to mine Monero on Raspberry PI with Auto start at reboot and background processing
+Using CPUminer to mine DashCoin on Raspberry PI with Auto start at reboot and background processing
 ---------------------------------------------------------------------------------------------------
 
 Installation, Build and Usage:
@@ -24,21 +24,21 @@ Installation, Build and Usage:
    sudo ./autogen.sh
    sudo ./configure
    sudo ./build.sh
-11. Setup an account on minergate or another mining pool
-12. Run cpuminer without password. We need to enter the email:
+11. Setup an account on poolin, slushpool, minergate(these are trusted pools) or another mining pool
+12. Use the credentials, select an algorithm to mine and make new worker with user and password.
+13. Run cpuminer without password. We need to enter the email:
 
 
-    ./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u karan.modi9@gmail.com
+   ./cpuminer -a x11 -o stratum+tcp://dash80.suprnova.cc:80 -u vapork.user -p x
     
 Autostart on Raspberry Pi boot:    
 1. crontab -e
-2. @reboot sudo /IOT/cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u karan.modi9@gmail.com
+2. @reboot sudo /cpuminer-multi/cpuminer -a x11 -o stratum+tcp://dash80.suprnova.cc:80 -u vapork.user -p x
 3. Ctr+x then Y to save
 
 Background Process:
-1. screen -S monero
-2. screen -r monero
-
+1. screen -S dash 
+2. screen -r dash
 
 
 [Latest cpuminer](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
