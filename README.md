@@ -18,7 +18,7 @@ Installation, Build and Usage:
 
 
    cd IOT
-7. Now build the script
+7. Now build the script:
 
 
    sudo ./autogen.sh
