@@ -2,7 +2,7 @@
 Using CPUminer to mine DashCoin on Raspberry Pi with auto start at boot and background processing
 ---------------------------------------------------------------------------------------------------
 
-Installation, Build and Usage:
+Installation, Build, and Usage:
 
 1. Update the Raspberry Pi:
 
