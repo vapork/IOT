@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Using CPUminer to mine DashCoin on Raspberry PI with Auto start at reboot and background processing
+Using CPUminer to mine DashCoin on Raspberry Pi with auto start at boot and background processing
 ---------------------------------------------------------------------------------------------------
 
 Installation, Build and Usage:
@@ -59,26 +59,5 @@ CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas 
 License:
 GPLv2.  See COPYING for details.
 
-Raspberry Pi Crypto Mining
-1. 
-2. 
-3. 
-4. 
-
-5. 
-6. 
-
-
-7. 
-8. Mining in background
-9. 
-10. 
-11. 
-Working even when SSH is terminated
-12. 
-13. 
-Autostart
-14. 
-15. 
 
 
