@@ -58,3 +58,27 @@ CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas 
 
 License:
 GPLv2.  See COPYING for details.
+
+Raspberry Pi Crypto Mining
+1. 
+2. 
+3. 
+4. 
+
+5. 
+6. 
+
+
+7. 
+8. Mining in background
+9. 
+10. 
+11. 
+Working even when SSH is terminated
+12. 
+13. 
+Autostart
+14. 
+15. 
+
+
