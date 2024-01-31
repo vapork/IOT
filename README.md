@@ -43,6 +43,12 @@ Background Process:
 1. screen -S dash 
 2. screen -r dash
 
+Some examples:
+
+./cpuminer -a cryptonight -o stratum+tcp://stratum.aikapool.com:7915 -u vapork 
+./cpuminer -a cryptonight -o stratum+tcp://us-east.zec.slushpool.com:4444 -u vapork -p x
+./cpuminer -a cryptonight -o stratum+tcp://btc.ss.poolin.com:1883 -u vapork.001 -p x
+
 
 [Latest cpuminer](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
 
@@ -58,6 +64,7 @@ CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas 
 
 License:
 GPLv2.  See COPYING for details.
+
 
 
 
